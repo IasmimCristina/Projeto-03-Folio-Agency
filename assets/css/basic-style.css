@@ -1,0 +1,33 @@
+:root {
+    /*Cores:*/
+    --primary: #5468E7;
+    --primary-shade: #D1ECFD;
+    --secondary: #C897E4;
+    --secondary-shade: #E8BEFF;
+    --dark: #232340;
+    --dark-shade: #323259;
+    --device: #FBF8F3;
+    --light: #FFFFFF;
+    --light-shade: #EDEDED;
+
+    --accent: #FFC7DF;
+    --accent-shade: #FFADD0;
+    --accent-2: #FFBA79;
+    --accent-2-shade: #FFCE79;
+    --accent-3: #9A97ED;
+    --accent-3-shade: #908CFF;
+    --text: #000000;
+    --text-light-mode: #606060;
+    --text-deactive-2: #ADADAD;
+    --text-dark-mode: #8B8B8B;
+
+    /* Gradientes */
+    --gradiente-1: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    --gradient-2: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+    --gradiente-3:  linear-gradient(0deg, rgba(50, 50, 89, 0.0001) 0%, #323259 72.97%);
+
+    /* Fontes */
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+body {}
