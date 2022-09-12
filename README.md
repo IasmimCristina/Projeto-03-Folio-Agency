@@ -20,6 +20,8 @@ Terceiro projeto do figma de um site, com responsividade para as telas mobile, t
 8. light: #FFFFFF;
 9. light-shade: #EDEDED;
 
+***
+
 1. accent: #FFC7DF;
 2. accent-shade: #FFADD0;
 3. accent-2: #FFBA79;
