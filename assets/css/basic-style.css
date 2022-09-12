@@ -1,3 +1,5 @@
+@import url(hero/header.css);
+@import url(hero/main.css);
 :root {
     /*Cores:*/
     --primary: #5468E7;
@@ -30,4 +32,9 @@
     --fonte-principal: 'Montserrat', sans-serif;
 }
 
-body {}
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--light);
+    font-size: 16px;
+    font-weight: 400;
+}
