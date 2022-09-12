@@ -1,5 +1,5 @@
 # Projeto-03-Folio-Agency
---Três versões de um site do Figma dentro do período de estágio Compass.
+Três versões de um site do Figma dentro do período de estágio Compass.
 ![Thumbnail do projeto](https://user-images.githubusercontent.com/100351576/189713483-d2a00d3f-4aca-4680-812d-48eebfacd940.png)
 
 ## Descrição
