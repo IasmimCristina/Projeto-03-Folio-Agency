@@ -33,7 +33,7 @@ Terceiro projeto do figma de um site, com responsividade para as telas mobile, t
 9. text-deactive-2: #ADADAD;
 10. text-dark-mode: #8B8B8B;
 
---Gradientes--
+### Gradientes
 
 1. gradiente-1: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
 2. gradient-2: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
