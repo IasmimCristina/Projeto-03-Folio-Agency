@@ -1,6 +1,4 @@
-.container-main {
 
-}
 .main-titulo {
 
     color: var(--dark);
@@ -52,7 +50,4 @@
     align-items: flex-start;
    margin-top: -50vh;
     
-}
-.main-image img {
-  
 }

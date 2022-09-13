@@ -17,35 +17,71 @@
 
 <body>
 
-    <header class="container-header">        
+    <header class="container-header">
         <img class="header-image" src="assets/images/logomarca/light-mode.svg" alt="folio Logo.">
 
-        <div class="menu-burg">
-            <input  class="header-checkbox" type="checkbox" id="menu">
+        <nav class="menu-burg">
+            <input class="header-checkbox" type="checkbox" id="menu">
             <label class="header-label" for="menu">
-                <span class="header-menu-hamburguer"></span>
+                <span class="header-menu-hamburguer "></span>
             </label>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <a href=""></a><a href=""></a><a href=""></a>
-            </ul>
-        </div>
+
+
+             <div class="menu-itens">
+
+                <img class="header-image menu-logo" src="assets/images/logomarca/dark-mode.svg" alt="Dark mode Logo Folio.">
+
+                <ul class="menu-item-lista">
+                    <li class="menu-item-first"><a class="menu-item" href="#">Work</a></li>
+                    <li> <a class="menu-item" href="#">About</a> </li>
+                    <li> <a class="menu-item" href="#">Services</a> </li>
+                    <li> <a class="menu-item" href="#">Jobs</a> </li>
+
+
+                    <div class="menu-icons">
+                        <div class="menu-icon">
+                            <a href="#"><img src="assets/images/menu-burger/icon-facebook.svg" alt="Facebook Icon."></a>
+                        </div>
+                        <div class="menu-icon">
+                            <a href="#"> <img src="assets/images/menu-burger/icon-youtube.svg" alt="YouTube Icon."></a>
+                        </div>
+                        <div class="menu-icon">
+                            <a href="#"> <img src="assets/images/menu-burger/icon-instagram.svg" alt="Instagram Icon"></a>
+                        </div>
+                    </div>
+
+
+                </ul>
+            </div>
+        </nav>
 
     </header>
 
     <main class="container-main">
         <h1 class="main-titulo">Stand Out From The Crowd.</h1>
-        <p class="main-descricao">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+        <p class="main-descricao">Agency is a full-service agency, busy designing and building beautiful digital
+            products, brands, and experiences.</p>
         <a class="main-anchor" href="#">Recent Work</a>
-        <div class="main-image"        >
-            <img  src="assets/images/hero/IMG.svg" alt="Illustration of a computer gaphic being used.">
+        <div class="main-image">
+            <img src="assets/images/hero/IMG.svg" alt="Illustration of a computer gaphic being used.">
         </div>
     </main>
 
     <footer></footer>
+
+    <script>
+        window.onload = function () {
+            const menu_btn = document.querySelector('.header-menu-hamburguer')
+            const mobile_menu = document.querySelector('.menu-itens');
+
+            menu_btn.addEventListener('click', function () {
+                menu_btn.classList.toggle('is-active');
+                mobile_menu.classList.toggle('is-active');
+            })
+
+
+        }
+    </script>
 </body>
 
 </html>
