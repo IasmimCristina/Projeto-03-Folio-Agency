@@ -35,6 +35,8 @@ body {
     outline: none;
     border: none;
 
+    cursor: pointer;
+
 
     margin-top: 7vh;
     margin-right: 8.5vw;
@@ -91,6 +93,10 @@ body {
 
     margin: 1em;
 
+}
+
+.menu-item:hover {
+    color: var(--light);
 }
 
 .menu-item-lista li {
