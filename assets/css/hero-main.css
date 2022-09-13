@@ -1,5 +1,5 @@
 .main-titulo {
-    
+
     color: var(--dark);
     position: absolute;
     height: 168px;
@@ -16,5 +16,45 @@
 }
 
 .main-descricao {
-    
+    color: var(--text-light-mode);
+
+    margin-left: 2rem;
+    margin-right: 4rem;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 37.57%;
+    bottom: 0%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.main-anchor {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--light);
+
+    position: absolute;
+    height: 22px;
+    left: 7.56%;
+    right: 49.56%;
+    top: calc(50% - 22px/2);
+
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+
+    padding: 1.3rem 0.1rem;
+    border-radius: 8px;
+    margin-top: .8rem;
+}
+
+.main-image {   
+    position: absolute;
+    left: 2.4rem;
+    top: 5.2rem;
+
 }
