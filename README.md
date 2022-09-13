@@ -32,6 +32,7 @@ Terceiro projeto do figma de um site, com responsividade para as telas mobile, t
 8. text-light-mode: #606060;
 9. text-deactive-2: #ADADAD;
 10. text-dark-mode: #8B8B8B;
+11. shade-mobile-menu: #595976;
 
 ### Gradientes
 

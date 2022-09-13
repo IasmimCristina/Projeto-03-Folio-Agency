@@ -7,14 +7,39 @@ body {
 }
 
 .header-menu-hamburguer {
-    background-image: url(../images/hero/burger-icon.svg);
+    position: absolute;
+    left: 331px;
+    top: 74px;
+
+    width: 32px;
+    height: 10px;
+    
+    
+    border-radius: 10%;    
+    
+    /* background-image: url(../images/hero/burger-icon.svg);
     background-repeat: no-repeat;
     position: absolute;
     width: 32px;
     height: 12px;
     left: 331px;
-    top: 72px;
+    top: 72px; */
+}
 
+.header-menu-hamburguer::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--dark);
+}
+.header-menu-hamburguer::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 2px;
+    background-color: var(--dark);
 }
 
 .header-image {
