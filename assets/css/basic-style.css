@@ -1,5 +1,5 @@
-@import url(hero/header.css);
-@import url(hero/main.css);
+@import url(header.css);
+@import url(hero-main.css);
 :root {
     /*Cores:*/
     --primary: #5468E7;
