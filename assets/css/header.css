@@ -1,52 +1,50 @@
 body {
     background-image: url(../images/hero/background/line-1.svg);
     background-repeat: no-repeat;
-    background-position: left 176px top -15.31px ;
+    background-position: left 176px top -15.31px;
     background-size: 256.68px 582.58px;
-    
+
+}
+
+.container-header {
+    display: flex;
+}
+
+
+.header-checkbox {
+    display: none;
 }
 
 .header-menu-hamburguer {
-    position: absolute;
-    left: 331px;
-    top: 74px;
-
-    width: 32px;
-    height: 10px;
-    
-    
-    border-radius: 10%;    
-    
-    /* background-image: url(../images/hero/burger-icon.svg);
-    background-repeat: no-repeat;
-    position: absolute;
+    display: block;
+    position: relative;
     width: 32px;
     height: 12px;
-    left: 331px;
-    top: 72px; */
+
 }
 
-.header-menu-hamburguer::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: var(--dark);
-}
+.header-menu-hamburguer::before,
 .header-menu-hamburguer::after {
     content: '';
     position: absolute;
-    top: 100%;
-    width: 100%;
-    height: 2px;
     background-color: var(--dark);
+    width: 100%;
+    height: .1em;
+}
+
+.header-menu-hamburguer::after {
+    top: 100%;
+
+}
+
+.menu-burg {
+    margin-top: 7vh;
+    margin-left: 35vw;
 }
 
 .header-image {
-    position: absolute;
-    width: 127.2px;
-    height: 32px;
-    left: 32px;
-    top: 62px;
+    margin-left: 8.5vw;
+    margin-top: 5.5vh;
+    margin-bottom: 5.5vh;
 
 }
