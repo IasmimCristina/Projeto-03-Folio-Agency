@@ -27,9 +27,10 @@
             </label>
 
 
-             <div class="menu-itens">
+            <div class="menu-itens">
 
-                <img class="header-image menu-logo" src="assets/images/logomarca/dark-mode.svg" alt="Dark mode Logo Folio.">
+                <img class="header-image menu-logo" src="assets/images/logomarca/dark-mode.svg"
+                    alt="Dark mode Logo Folio.">
 
                 <ul class="menu-item-lista">
                     <li class="menu-item-first"><a class="menu-item" href="#">Work</a></li>
@@ -46,7 +47,8 @@
                             <a href="#"> <img src="assets/images/menu-burger/icon-youtube.svg" alt="YouTube Icon."></a>
                         </div>
                         <div class="menu-icon">
-                            <a href="#"> <img src="assets/images/menu-burger/icon-instagram.svg" alt="Instagram Icon"></a>
+                            <a href="#"> <img src="assets/images/menu-burger/icon-instagram.svg"
+                                    alt="Instagram Icon"></a>
                         </div>
                     </div>
 
@@ -67,16 +69,85 @@
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+
+        <section class="contact-us">
+
+            <div class="contact-blue-container">
+
+                <div class="contact-container-hello">
+                    <img class="contact-image-hello" src="assets/images/footer/SpeachBubble V2.svg"
+                        alt="Green speech bubble for illustration purposes only.">
+                    <pre class="contact-titulo-hello">👋   Say hello</pre>
+                    <p class="contact-descricao">
+                        A design team building a curated marketplace for UI designers.
+                    </p>
+
+                </div>
+
+                <div class="contact-container-anchor">
+                    <h2 class="contact-titulo-main">Let's talk about your next project</h2>
+                    <a class="contact-us-anchor" href="#">Contact Us</a>
+                </div>
+
+            </div>
+
+            <div class="footer-container">
+                <img class="footer-logo" src="assets/images/logomarca/light-mode.svg" alt="Folio Logo.">
+                <p class="footer-descricao">
+                    Agency is a full-service agency, busy designing and building.
+                </p>
+                <!-- Há modificação da página ativa. Use nomes genéricos para a configuração da página ativa. -->
+                <div class="navigation-dropdown">
+                    <button class="dropdown-btn">Home</button>
+                    <div class="dropdown-navigation-content">
+                        <!-- Muda conforma a página ativa. -->
+                        <a class="footer-dropdown-content-item" href="#">Work</a>
+                        <a class="footer-dropdown-content-item" href="#">About</a>
+                        <a class="footer-dropdown-content-item" href="#">Services</a>
+                        <a class="footer-dropdown-content-item" href="#">Jobs</a>
+
+                    </div>
+                </div>
+                <div class="footer-icons">
+                    <a class="footer-icon footer-icon-facebook" href="#">
+                        <img src="assets/images/menu-burger/icon-facebook.svg" alt="Facebook Icon">
+                    </a>
+                    <a class="footer-icon" href="#">
+                        <img src="assets/images/menu-burger/icon-youtube.svg" alt="YouTube Icon">
+                    </a>
+                    <a class="footer-icon" href="#">
+                        <img src="assets/images/menu-burger/icon-instagram.svg" alt="Instagram Icon">
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    <p class="footer-copyright-text" >
+                        &copy 2020, UI8 LLC.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+    </footer>
 
     <script>
         window.onload = function () {
             const menu_btn = document.querySelector('.header-menu-hamburguer')
             const mobile_menu = document.querySelector('.menu-itens');
 
+            
+
             menu_btn.addEventListener('click', function () {
                 menu_btn.classList.toggle('is-active');
                 mobile_menu.classList.toggle('is-active');
+            })
+
+            const dropbox__btn = document.querySelector('.dropdown-btn');
+            const dropbox__footer = document.querySelector('.dropdown-navigation-content');
+
+            dropbox__btn.addEventListener('click', function() {
+                dropbox__footer.classList.toggle('is-active');
             })
 
 
