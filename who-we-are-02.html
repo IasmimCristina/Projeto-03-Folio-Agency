@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>About</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/basic-style.css">
 </head>
-<body>
+<body class="who-we-are">
     <header class="container-header">
         <img class="header-image" src="assets/images/logomarca/light-mode.svg" alt="folio Logo.">
 
@@ -31,8 +31,8 @@
 
                 <ul class="menu-item-lista">
                     <li class="menu-item-first"><a class="menu-item" href="#">Work</a></li>
-                    <li> <a class="menu-item " href="who-we-are.html">About</a> </li>
-                    <li> <a class="menu-item menu-item-selected" href="services.html">Services</a> </li>
+                    <li> <a class="menu-item menu-item-selected" href="who-we-are.html">About</a> </li>
+                    <li> <a class="menu-item" href="services.html">Services</a> </li>
                     <li> <a class="menu-item" href="#">Jobs</a> </li>
 
 
@@ -56,7 +56,7 @@
 
     </header>
     <main>
-
+        
     </main>
     <footer>
 
@@ -88,7 +88,7 @@
                 </p>
                 <!-- Há modificação da página ativa. Use nomes genéricos para a configuração da página ativa. -->
                 <div class="navigation-dropdown">
-                    <button class="dropdown-btn">Services</button>
+                    <button class="dropdown-btn">About</button>
                     <div class="dropdown-navigation-content">
                         <!-- Muda conforma a página ativa. -->
                         <a class="footer-dropdown-content-item" href="#">Work</a>
@@ -121,9 +121,8 @@
     </footer>
 
     <script>
-        window.onload = function () {           
-
-
+        window.onload = function () {
+            
 
             const dropbox__btn = document.querySelector('.dropdown-btn');
             const dropbox__footer = document.querySelector('.dropdown-navigation-content');
