@@ -1,0 +1,144 @@
+.who-we-are {
+    background-image: none;
+}
+
+.container-who-we-are {
+    background-color: var(--dark);
+    height: 110vh;
+}
+
+.main-titulo-about {
+    color: var(--light);
+}
+
+.main-titulo-small-container {
+    display: flex;
+    padding: 9vh 9vw 4vh;
+}
+
+.main-titulo-small {
+    color: var(--light);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+}
+
+.main-titulo-small-number {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--text-deactive-2);
+}
+
+.navigation-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8vw;
+    margin-top: 4.5vh;
+    width: 26vw;
+
+    height: 4vh;
+
+}
+
+.navigation-arrow {
+    cursor: pointer;
+    padding: 1.5em .8em;
+    border-radius: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-arrow:hover {
+    background-color: var(--primary);
+    transition: .5s;
+}
+
+.navigation-dropdown-year {
+    position: relative;
+    left: 50%;
+    bottom: 2.2em;
+    display: inline-block;
+
+}
+
+
+
+
+.dropdown-btn-year {
+    cursor: pointer;
+
+    border-radius: 8px;
+    border: 1px solid var(--dark);
+    color: var(--light);
+
+
+
+    padding: 1.5em 6em;
+    width: 5em;
+
+
+    background-image: url(../images/who-we-are/dropdown-icon-light.svg);
+    background-repeat: no-repeat;
+    background-position: right 1vw bottom 2.2vh;
+    background-color: var(--dark);
+
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+
+
+
+}
+
+.dropdown-navigation-content-year {
+    display: none;
+}
+
+
+
+.dropdown-navigation-content-year.is-active {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 75%;
+    left: -3%;
+
+    z-index: 1;
+
+    border: 5px solid var(--dark);
+    border-top: none;
+
+}
+
+
+
+.dropdown-content-item-year {
+
+    padding: .8em 3.5em;
+    width: 5em;
+    text-align: start;
+
+    text-decoration: none;
+    background-color: var(--light);
+    color: var(--dark);
+
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.dropdown-content-item-year:hover {
+    background-color: var(--primary);
+    color: var(--light);
+    transition: .5s;
+}
+
+.main-image-about {
+    margin-top: 2vh;
+    width: 100%;
+
+
+}

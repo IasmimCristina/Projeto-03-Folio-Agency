@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero</title>
+    <title>Who we are</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/basic-style.css">
 </head>
 
-<body>
+<body class="who-we-are">
 
     <header class="container-header">
         <img class="header-image" src="assets/images/logomarca/light-mode.svg" alt="folio Logo.">
@@ -34,7 +34,7 @@
 
                 <ul class="menu-item-lista">
                     <li class="menu-item-first"><a class="menu-item" href="#">Work</a></li>
-                    <li> <a class="menu-item" href="who-we-are.html">About</a> </li>
+                    <li> <a class="menu-item menu-item-selected" href="who-we-are.html">About</a> </li>
                     <li> <a class="menu-item" href="#">Services</a> </li>
                     <li> <a class="menu-item" href="#">Jobs</a> </li>
 
@@ -58,17 +58,46 @@
         </nav>
 
     </header>
+    <main>
+        <div class="container-who-we-are">
+            <pre class="main-titulo-small-container">
+                <h2 class="main-titulo-small"><span class="main-titulo-small-number">01.</span>     Who We Are </h2>
+            </pre>
 
-    <main class="container-main">
-        <h1 class="main-titulo">Stand Out From The Crowd.</h1>
-        <p class="main-descricao">Agency is a full-service agency, busy designing and building beautiful digital
-            products, brands, and experiences.</p>
-        <a class="main-anchor" href="#">Recent Work</a>
-        <div class="main-image">
-            <img src="assets/images/hero/IMG.svg" alt="Illustration of a computer gaphic being used.">
+            <h1 class="main-titulo main-titulo-about">
+                We Make Designs that Lead and Inpire.
+            </h1>
+
+            <div class="container-arrows-and-years">
+
+                <div class="navigation-arrows">
+                    <a class="navigation-arrow-voltar navigation-arrow " href="hero.html">
+                        <img src="assets/images/who-we-are/arrow-left.svg" alt="Arrow pointing left to go back.">
+                    </a>
+
+                    <a class="navigation-arrow-continuar navigation-arrow" href="#">
+                        <img src="assets/images/who-we-are/arrow-right.svg" alt="Arrow pointing right to go further.">
+                    </a>
+                </div>
+
+
+                <div class="navigation-dropdown-year">
+                    <button class="dropdown-btn-year">2020</button>
+                    <div class="dropdown-navigation-content-year">
+                        <!-- Muda conforma a página ativa. -->
+                        <a class="dropdown-content-item-year" href="#">2017</a>
+                        <a class="dropdown-content-item-year" href="#">2018</a>
+                        <a class="dropdown-content-item-year" href="#">2019</a>
+                        <a class="dropdown-content-item-year" href="#">2020</a>
+                        <a class="dropdown-content-item-year" href="#">2022</a>
+                    </div>
+                </div>
+            </div>
+
+            <img class="main-image-about" src="assets/images/who-we-are/main-img-who-we-are.svg"
+                alt="Illustration of a computer, graphics and a pencil.">
         </div>
     </main>
-
     <footer>
 
         <section class="contact-us">
@@ -121,7 +150,7 @@
                     </a>
                 </div>
                 <div class="footer-copyright">
-                    <p class="footer-copyright-text" >
+                    <p class="footer-copyright-text">
                         &copy 2020, UI8 LLC.
                     </p>
                 </div>
@@ -133,21 +162,32 @@
 
     <script>
         window.onload = function () {
-            const menu_btn = document.querySelector('.header-menu-hamburguer')
-            const mobile_menu = document.querySelector('.menu-itens');
+            const dropbox__year = document.querySelector('.dropdown-navigation-content-year');
+            const dropbox__yearbtn = document.querySelector('.dropdown-btn-year');
 
-            
+            dropbox__yearbtn.addEventListener('click', function () {
 
-            menu_btn.addEventListener('click', function () {
-                menu_btn.classList.toggle('is-active');
-                mobile_menu.classList.toggle('is-active');
+                dropbox__year.classList.toggle('is-active');
             })
+
+
 
             const dropbox__btn = document.querySelector('.dropdown-btn');
             const dropbox__footer = document.querySelector('.dropdown-navigation-content');
 
-            dropbox__btn.addEventListener('click', function() {
+            dropbox__btn.addEventListener('click', function () {
                 dropbox__footer.classList.toggle('is-active');
+            })
+
+
+            const menu_btn = document.querySelector('.header-menu-hamburguer');
+            const mobile_menu = document.querySelector('.menu-itens');
+
+
+
+            menu_btn.addEventListener('click', function () {
+                menu_btn.classList.toggle('is-active');
+                mobile_menu.classList.toggle('is-active');
             })
 
 

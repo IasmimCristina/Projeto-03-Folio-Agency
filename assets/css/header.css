@@ -171,3 +171,7 @@ body {
     top: 50%;
     background-color: var(--light);
 }
+
+.menu-item-selected {
+    color: var(--light);
+}
