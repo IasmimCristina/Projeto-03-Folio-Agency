@@ -20,6 +20,29 @@
     <header class="container-header">
         <img class="header-image" src="assets/images/logomarca/light-mode.svg" alt="folio Logo.">
 
+        <div class="menu-tablet">
+            <div class="menu-tablet-itens">
+                <a class="menu-tablet-item" href="who-we-are.html">
+                    About
+                </a>
+                <a class="menu-tablet-item" href="work-01.html">
+                    Work
+                </a>
+                <a class="menu-tablet-item" href="services.html">
+                    Services
+                </a>
+                <a class="menu-tablet-item menu-tablet-item-jobs" href="jobs-cta.html">
+                    Jobs
+                </a>
+            </div>
+
+            <a class="contact-tablet-general" href="error404.html">
+
+                Contact Us
+
+            </a>
+        </div>
+
         <nav class="menu-burg">
             <input class="header-checkbox" type="checkbox" id="menu">
             <label class="header-label" for="menu">
@@ -27,16 +50,21 @@
             </label>
 
 
+
+
+
             <div class="menu-itens">
 
                 <img class="header-image menu-logo" src="assets/images/logomarca/dark-mode.svg"
                     alt="Dark mode Logo Folio.">
 
+
+
                 <ul class="menu-item-lista">
                     <li class="menu-item-first"><a class="menu-item" href="work-01.html">Work</a></li>
                     <li> <a class="menu-item" href="who-we-are.html">About</a> </li>
                     <li> <a class="menu-item" href="services.html">Services</a> </li>
-                    <li> <a class="menu-item" href="#">Jobs</a> </li>
+                    <li> <a class="menu-item" href="jobs-cta.html">Jobs</a> </li>
 
 
                     <div class="menu-icons">
@@ -64,8 +92,17 @@
         <p class="main-descricao">Agency is a full-service agency, busy designing and building beautiful digital
             products, brands, and experiences.</p>
         <a class="main-anchor" href="#">Recent Work</a>
+
+        <img class="image-swipe" src="assets/images/hero/tablet/scroll down button.svg" alt="Swipe down to explore">
+
+
+                
+        
+           
         <div class="main-image">
-            <img src="assets/images/hero/IMG.svg" alt="Illustration of a computer gaphic being used.">
+
+            <img class="hero-image-mobile" src="assets/images/hero/IMG.svg"
+                alt="Illustration of a computer gaphic being used.">
         </div>
     </main>
 
@@ -87,7 +124,7 @@
 
                 <div class="contact-container-anchor">
                     <h2 class="contact-titulo-main">Let's talk about your next project</h2>
-                    <a class="contact-us-anchor" href="#">Contact Us</a>
+                    <a class="contact-us-anchor" href="error404.html">Contact Us</a>
                 </div>
 
             </div>
@@ -105,7 +142,7 @@
                         <a class="footer-dropdown-content-item" href="work-01.html">Work</a>
                         <a class="footer-dropdown-content-item" href="who-we-are.html">About</a>
                         <a class="footer-dropdown-content-item" href="services.html">Services</a>
-                        <a class="footer-dropdown-content-item" href="#">Jobs</a>
+                        <a class="footer-dropdown-content-item" href="jobs-cta.html">Jobs</a>
 
                     </div>
                 </div>
@@ -121,7 +158,7 @@
                     </a>
                 </div>
                 <div class="footer-copyright">
-                    <p class="footer-copyright-text" >
+                    <p class="footer-copyright-text">
                         &copy 2020, UI8 LLC.
                     </p>
                 </div>
@@ -136,7 +173,7 @@
             const menu_btn = document.querySelector('.header-menu-hamburguer')
             const mobile_menu = document.querySelector('.menu-itens');
 
-            
+
 
             menu_btn.addEventListener('click', function () {
                 menu_btn.classList.toggle('is-active');
@@ -146,7 +183,7 @@
             const dropbox__btn = document.querySelector('.dropdown-btn');
             const dropbox__footer = document.querySelector('.dropdown-navigation-content');
 
-            dropbox__btn.addEventListener('click', function() {
+            dropbox__btn.addEventListener('click', function () {
                 dropbox__footer.classList.toggle('is-active');
             })
 

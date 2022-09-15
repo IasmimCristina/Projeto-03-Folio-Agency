@@ -133,29 +133,6 @@ body {
     border: 1px solid var(--light);
 }
 
-/* .menu-burg {
-    margin-top: 7vh;
-    margin-left: 35vw;
-    display: flex;
-    flex-direction: column;
-
-
-    background-image: url(../images/menu-burger/line-menu.svg);
-    background-repeat: no-repeat;
-    background-position: left 66px top -15.31px;
-    background-size: 456.68px 582.58px;
-
-    background-color: var(--dark);
-    position: absolute;
-    bottom: 0vh;
-    right: -100vw;
-    height: 100vh;
-    width: 100vw;
-}
-
-
-
- */
 
 
 
@@ -174,4 +151,93 @@ body {
 
 .menu-item-selected {
     color: var(--light);
+}
+
+.menu-tablet {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+
+    body {
+        background-image: url(../images/hero/tablet/line-tablet.svg);
+        background-size: 556px 682px;
+        background-position: top 0 right 55%;
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+    .menu-burg {
+        display: none;
+    }
+
+    .menu-tablet-item {
+        text-decoration: none;
+        font-weight: 600;
+
+        color: var(--text-dark-mode);
+        line-height: 22px;
+    }
+
+    .menu-tablet-item-selected, .menu-tablet-item:hover {
+        color: var(--primary);
+        transition: .5s;
+    }
+
+   
+
+    .contact-tablet-general {
+
+        font-weight: 600;
+        
+        line-height: 22px;
+
+        text-decoration: none;
+        color: var(--light);
+
+        height: 1.5em;
+
+        padding: 1.2em 2.5em;
+        background-color: var(--dark);
+        border-radius: .7em;
+
+        margin: 1.5em 2em;
+
+        cursor: pointer;
+    }
+
+    .contact-tablet-general:hover {
+        background-color: var(--secondary);
+        transition: .5s;
+    }
+
+    .menu-tablet {
+        display: flex;
+        
+        width: 100vw;      
+    }
+
+    .menu-tablet-itens {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .menu-tablet-item {
+        margin: 0 1em;
+        padding: 1.5em 1.5em;
+    }
+
+    .menu-tablet-item-jobs {
+        background-image: url(../images/hero/tablet/notification.svg);
+        background-repeat: no-repeat;
+        background-position: bottom 2.8em  left 3.4em;
+    }
+    .container-header {
+        width: 100vw;
+    }
+    
+
+    
 }

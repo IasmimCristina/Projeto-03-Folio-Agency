@@ -1,0 +1,52 @@
+
+
+.main-titulo-small-number-white, .main-titulo-small-number-white {
+    color: var(--light);
+    margin-left: 10vw;    
+    
+}
+
+.main-titulo-white {
+    color: var(--light);
+    margin-left: 15vw;
+   
+}
+
+
+
+.container-jobs-apply {
+    margin-top: 8vh;
+} 
+
+.jobs-apply {
+    cursor: pointer;
+    color:var(--primary) ;
+    background-color: var(--light);
+    margin-left: 20vw;
+    
+}
+
+.jobs-apply:hover {
+    background-color: var(--secondary);
+    color: var(--light);
+    
+}
+
+.main-jobs {
+    height: 115vh;
+    background-image: url(../images/jobs/bg-blue.svg);
+    background-repeat: no-repeat;
+    background-position: top  center ;
+}
+.container-for-background-02 {
+    height: 150vh;
+    background-image: url(../images/jobs/bg-pink.svg);
+    background-repeat: no-repeat;
+    background-position: right top 15em;
+    
+}
+
+.main-image-jobs {
+    margin-top: 4vh;
+    width: 100%;
+}
