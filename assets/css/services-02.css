@@ -1,0 +1,40 @@
+.body-services-02 {
+    background-image: none;
+}
+.main-services-02 {
+    background-image: url(../images/services-02/line-services-02.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: left 0px top 400px;
+}
+.main-titulo-small-dark,
+.main-titulo-small-number-dark {
+    
+    margin-top: -10vh;
+}
+.main-titulo-small-dark {
+    color: var(--dark);
+
+}
+.main-titulo-services-02 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: -0.2px;
+
+    margin: -7vh 25vw 4vh 10vw;
+}
+
+.services-02-images-68 {
+    margin-left: 10vw;
+    
+}
+
+.services-02-image-phone {
+    background-image: url(../images/services-02/circle\ bg.svg);
+    background-repeat: no-repeat;
+    background-position: left 10vw top 15vh;
+}
+.services-02-image-phone img {
+    width: 100%;
+}
