@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Work</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,14 +13,15 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/basic-style.css">
 </head>
-<body class="who-we-are-02">
+<body class="body-work-01">
+
     <header class="container-header">
-        <img class="header-image" src="assets/images/logomarca/dark-mode.svg" alt="folio Logo.">
+        <img class="header-image" src="assets/images/logomarca/light-mode.svg" alt="folio Logo.">
 
         <nav class="menu-burg">
             <input class="header-checkbox" type="checkbox" id="menu">
             <label class="header-label" for="menu">
-                <span class="header-menu-hamburguer header-menu-hamburguer-dark "></span>
+                <span class="header-menu-hamburguer "></span>
             </label>
 
 
@@ -30,9 +31,9 @@
                     alt="Dark mode Logo Folio.">
 
                 <ul class="menu-item-lista">
-                    <li class="menu-item-first"><a class="menu-item" href="work-01.html">Work</a></li>
-                    <li> <a class="menu-item menu-item-selected" href="who-we-are.html">About</a> </li>
-                    <li> <a class="menu-item" href="services.html">Services</a> </li>
+                    <li class="menu-item-first"><a class="menu-item menu-item-selected" href="work-01.html">Work</a></li>
+                    <li> <a class="menu-item " href="who-we-are.html">About</a> </li>
+                    <li> <a class="menu-item " href="services.html">Services</a> </li>
                     <li> <a class="menu-item" href="#">Jobs</a> </li>
 
 
@@ -55,18 +56,39 @@
         </nav>
 
     </header>
-    <main>
-        <div class="about-02-text">
-            <h2 class="about-02-titulo">
-                A design team building a curated marketplace for UI designers.
-            </h2>
-            <p class="about-02-descricao">
-                4,404 curated design resources to energize your creative workflow. We're a growing family of 334,531 designers and makers from around the world
-            </p>
-            <button class="contact-us-general"       >Contact Us</button>
+
+    <main class="main-work main-work-secondary">
+
+        
+        <div class="work-main-image work-main-image-05">
+            <img src="assets/images/work-screens/img05.svg" alt="A design tool and a cursor with a pencil">
         </div>
-        <img class="circle-28" src="assets/images/who-we-are-02/28-circle.svg" alt="28 biggest branding.">
+
+        
+
+        <div class="container-secondary-text-general container-secondary-text-work">
+            <h2 class="secondary-titulo-general secondary-titulo-general-light">
+                Bento 3D Illustration
+            </h2>
+            <p class="secondary-descricao-general secondary-descricao-general-work" >
+                Agency is a full-service agency, busy designing and building beautiful digital products, brands
+            </p>
+        </div>
+
+        <a class="navigation-arrow navigation-arrow-work" href="bento.html">
+            <img src="assets/images/work-screens/arrow-right-black.svg" alt="Arrow pointing right to go further.">
+        </a>
+
+        <div class="container-contact-work">
+            <button class="contact-us-general contact-us-general-work">
+                Contact Us
+            </button>
+        </div>
+
+
+        
     </main>
+
     <footer>
 
         <section class="contact-us">
@@ -91,13 +113,13 @@
             </div>
 
             <div class="footer-container">
-                <img class="footer-logo" src="assets/images/logomarca/dark-mode.svg" alt="Folio Logo.">
-                <p class="footer-descricao footer-descricao-dark">
+                <img class="footer-logo" src="assets/images/logomarca/light-mode.svg" alt="Folio Logo.">
+                <p class="footer-descricao">
                     Agency is a full-service agency, busy designing and building.
                 </p>
                 <!-- Há modificação da página ativa. Use nomes genéricos para a configuração da página ativa. -->
                 <div class="navigation-dropdown">
-                    <button class="dropdown-btn dropdown-btn-dark">About</button>
+                    <button class="dropdown-btn">Work</button>
                     <div class="dropdown-navigation-content">
                         <!-- Muda conforma a página ativa. -->
                         <a class="footer-dropdown-content-item" href="work-01.html">Work</a>
@@ -119,7 +141,7 @@
                     </a>
                 </div>
                 <div class="footer-copyright">
-                    <p class="footer-copyright-text footer-copyright-text-dark">
+                    <p class="footer-copyright-text">
                         &copy 2020, UI8 LLC.
                     </p>
                 </div>
@@ -131,7 +153,8 @@
 
     <script>
         window.onload = function () {
-            
+
+
 
             const dropbox__btn = document.querySelector('.dropdown-btn');
             const dropbox__footer = document.querySelector('.dropdown-navigation-content');
@@ -154,5 +177,6 @@
 
         }
     </script>
+
 </body>
 </html>

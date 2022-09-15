@@ -9,19 +9,19 @@
     background-color: var(--light);
 }
 
-.about-02-text {
+.about-02-text, .container-secondary-text-general {
     margin: 0 10vw;
 
 }
 
-.about-02-titulo {
+.about-02-titulo, .secondary-titulo-general {
     color: var(--light);
     font-weight: 700;
     font-size: 24px;
     line-height: 133%;
 }
 
-.about-02-descricao {
+.about-02-descricao, .secondary-descricao-general {
     color: var(--text-dark-mode);
     font-weight: 400;
 
