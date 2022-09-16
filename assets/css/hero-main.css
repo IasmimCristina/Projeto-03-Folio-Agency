@@ -1,5 +1,5 @@
 .container-main {
-    height: 90vh;
+    height: 100vh;
 
 }
 
@@ -53,18 +53,14 @@
     transition: .5s;
 }
 
-.main-image {
-    width: 100vw;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-top: -43vh;
-
+.container-main {
+    background-image: url(../images/hero/IMG.svg);
+    background-repeat: no-repeat;
+     background-size: 45vh;
+    background-position: bottom 15vh right;
 }
 
-.image-swipe {
-    display: none;
-}
+
 
 @media screen and (min-width:1024px) {
 

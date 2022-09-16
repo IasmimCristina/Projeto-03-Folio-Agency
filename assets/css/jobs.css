@@ -1,14 +1,19 @@
-
+.body-jobs {
+    background: none;
+    
+}
 
 .main-titulo-small-number-white, .main-titulo-small-number-white {
     color: var(--light);
-    margin-left: 10vw;    
+    margin-left: 10vw;  
+    margin-right: 0;  
     
 }
 
 .main-titulo-white {
     color: var(--light);
     margin-left: 15vw;
+    margin-right: 0vw;
    
 }
 
@@ -33,16 +38,21 @@
 }
 
 .main-jobs {
+    width: 100vw;
     height: 115vh;
     background-image: url(../images/jobs/bg-blue.svg);
     background-repeat: no-repeat;
     background-position: top  center ;
 }
 .container-for-background-02 {
-    height: 150vh;
+    width: 100vw;
+    overflow: hidden;
+    height: 150vh;    
     background-image: url(../images/jobs/bg-pink.svg);
     background-repeat: no-repeat;
-    background-position: right top 15em;
+    background-position: right;
+    
+    
     
 }
 
