@@ -1,7 +1,11 @@
 .who-we-are {
     background-image: none;
+    height: 100vh;
 }
 
+.main-who-we-are {
+    height: 135vh;
+}
 .container-who-we-are {
     background-color: var(--dark);
     height: 110vh;

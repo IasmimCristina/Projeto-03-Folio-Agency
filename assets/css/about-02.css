@@ -1,7 +1,7 @@
 .who-we-are-02 {
     background-image: none;
     background-color: var(--dark);
-    height: 100vh;
+    height: 150vh;
 }
 
 .header-menu-hamburguer-dark::before,
